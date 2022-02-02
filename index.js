@@ -86,7 +86,7 @@ async function InitiateAsyncCrawler(upperLimitOnPageNumbers) {
   //exitHandler(null, {});
 }
 
-InitiateAsyncCrawler(20);
+InitiateAsyncCrawler(20000);
 
 
 /**

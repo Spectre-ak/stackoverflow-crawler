@@ -9,10 +9,9 @@ const fetch = require('node-fetch');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const mongodb = require("./dbUtil");
-var DomParser = require('dom-parser');
 const csvwriter = require('csv-writer');
 var createCsvWriter = csvwriter.createObjectCsvWriter;
-var parser = new DomParser();
+
 
 
 /**

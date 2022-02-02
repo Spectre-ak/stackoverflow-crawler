@@ -1,6 +1,6 @@
 const { MongoClient } = require("mongodb");
 const dburl = require("./dbUrl");
-const uri = dburl.url();
+const uri = dburl.url;
 
 /**
  * Function for dumping data into the DB
